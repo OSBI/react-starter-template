@@ -1,51 +1,112 @@
-<!--  
-  Copyright 2016 OSBI Ltd
-
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
-
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <!-- Meta -->
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>React Starter Template</title>
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="dist/assets/images/favicon.ico">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="dist/assets/css/bootstrap.min.css">
-  <link rel="stylesheet" href="dist/assets/css/font-awesome.min.css">
-  <link rel="stylesheet" href="dist/saiku/saiku.css">
-
-  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-  <!--[if lt IE 9]>
-    <script src="dist/assets/js/html5shiv.js"></script>
-    <script src="dist/assets/js/respond.min.js"></script>
-  <![endif]-->
+  <meta charset="utf-8">
+  <base data-ice="baseUrl">
+  <title data-ice="title">API Document</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
 </head>
-<body>
-  <div id="app"></div>
+<body class="layout-container" data-ice="rootContainer">
 
-  <!-- JS -->
-  <script src="dist/assets/js/jquery.min.js"></script>
-  <script src="dist/assets/js/bootstrap.min.js"></script>
-  <script src="dist/saiku/saiku.js"></script>
+<header>
+  <a href="./">Home</a>
+  
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/OSBI/react-starter-template" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">components</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/js/components/Component.jsx~Component.html">Component</a></span></span></li>
+<li data-ice="doc"><div data-ice="dirPath" class="nav-dir-path">views</div><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/js/views/Template.jsx~Template.html">Template</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><h1 id="saiku-react-starter-build-status-https-travis-ci-org-osbi-saiku-react-starter-svg-branch-master-https-travis-ci-org-osbi-saiku-react-starter-">Saiku React Starter <a href="https://travis-ci.org/OSBI/saiku-react-starter"><img src="https://travis-ci.org/OSBI/saiku-react-starter.svg?branch=master" alt="Build Status"></a></h1>
+<p>A template for writing React Apps based ECMAScript 2015 (ES6) app using webpack, Browsersync, Gulp and more.</p>
+<h2 id="getting-started">Getting started</h2>
+<p>In order to run it locally you&apos;ll need a basic server setup.</p>
+<ol>
+<li><p>Clone this repo using:</p>
+<pre><code><code class="source-code prettyprint">$ git clone git@github.com:OSBI/saiku-react-starter.git</code>
+</code></pre></li>
+<li><p>Install <a href="https://nodejs.org/en/download/">NodeJS</a> and <a href="https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md#1-install-gulp-globally">GulpJS</a>, if you don&apos;t have it yet.</p>
+</li>
+<li><p>Delete the existing git repository by running:</p>
+<pre><code><code class="source-code prettyprint">$ rm -rf .git</code>
+</code></pre></li>
+<li><p>Initialize a new git repository with:</p>
+<pre><code><code class="source-code prettyprint">$ git init
+$ git add .
+$ git commit -m &quot;Initial commit&quot;</code>
+</code></pre></li>
+<li><p>Install Dependencies:</p>
+<pre><code><code class="source-code prettyprint">$ npm install</code>
+</code></pre></li>
+<li><p>Serve it:</p>
+<pre><code><code class="source-code prettyprint">$ npm run dev</code>
+</code></pre></li>
+<li><p>Run tasks with Gulp:</p>
+<pre><code><code class="source-code prettyprint">$ gulp</code>
+</code></pre></li>
+<li><p>Execute tests (optional):</p>
+<pre><code><code class="source-code prettyprint">$ npm test</code>
+</code></pre></li>
+</ol>
+<h2 id="usage">Usage</h2>
+<ul>
+<li>Run <code>npm run build</code> to build the project;</li>
+<li>Run <code>npm run clean</code> Clean <code>resources</code> folder;</li>
+<li>Run <code>npm run dev</code> to build the project, start watching files and run the local server;</li>
+<li>Run <code>npm run docs</code> to generate the documentation the code;</li>
+<li>Run <code>npm test</code> to run the tests once;</li>
+<li>Run <code>npm run test:ci</code> to watch the <code>src</code> directory for changes and run the tests.</li>
+</ul>
+<h2 id="tasks">Tasks</h2>
+<ul>
+<li><code>gulp</code>: Initialize stylus and watch for changes;</li>
+<li><code>gulp bower-install</code>: Move dependencies to folder <code>dist/assets/</code>;</li>
+<li><code>gulp deploy-pages</code>: Deploy documentation files to <code>github</code> on branch gh-pages;</li>
+<li><code>gulp imagemin</code>: Compress image files;</li>
+<li><code>gulp stylus</code>: Compile stylus files;</li>
+<li><code>gulp watch</code>: Call for watch files.</li>
+</ul>
+<h2 id="contributing">Contributing</h2>
+<p>If you want to help, please read the <a href="https://github.com/OSBI/saiku-react-starter/blob/master/CONTRIBUTING.md">Contributing</a> guide.</p>
+<h2 id="history">History</h2>
+<p>For detailed changelog, see <a href="https://github.com/OSBI/saiku-react-starter/releases">Releases</a>.</p>
+<h2 id="license">License</h2>
+<p>Saiku and the Saiku UI are free software. The UI, contained in this repository,
+is available under the terms of the Apache License Version 2. A copy is attached for your convenience.</p>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.4.6)</span></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
 </body>
 </html>

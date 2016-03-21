@@ -1,0 +1,1360 @@
+{
+  "type": "Program",
+  "body": [
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "React",
+            "range": [
+              621,
+              626
+            ],
+            "loc": {
+              "start": {
+                "line": 17,
+                "column": 7
+              },
+              "end": {
+                "line": 17,
+                "column": 12
+              }
+            }
+          },
+          "range": [
+            621,
+            626
+          ],
+          "loc": {
+            "start": {
+              "line": 17,
+              "column": 7
+            },
+            "end": {
+              "line": 17,
+              "column": 12
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "react",
+        "raw": "'react'",
+        "range": [
+          632,
+          639
+        ],
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 18
+          },
+          "end": {
+            "line": 17,
+            "column": 25
+          }
+        }
+      },
+      "range": [
+        614,
+        640
+      ],
+      "loc": {
+        "start": {
+          "line": 17,
+          "column": 0
+        },
+        "end": {
+          "line": 17,
+          "column": 26
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n *   Copyright 2016 OSBI Ltd\n *\n *   Licensed under the Apache License, Version 2.0 (the \"License\");\n *   you may not use this file except in compliance with the License.\n *   You may obtain a copy of the License at\n *\n *       http://www.apache.org/licenses/LICENSE-2.0\n *\n *   Unless required by applicable law or agreed to in writing, software\n *   distributed under the License is distributed on an \"AS IS\" BASIS,\n *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n *   See the License for the specific language governing permissions and\n *   limitations under the License.\n ",
+          "range": [
+            0,
+            612
+          ],
+          "loc": {
+            "start": {
+              "line": 1,
+              "column": 0
+            },
+            "end": {
+              "line": 15,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "ReactDOM",
+            "range": [
+              648,
+              656
+            ],
+            "loc": {
+              "start": {
+                "line": 18,
+                "column": 7
+              },
+              "end": {
+                "line": 18,
+                "column": 15
+              }
+            }
+          },
+          "range": [
+            648,
+            656
+          ],
+          "loc": {
+            "start": {
+              "line": 18,
+              "column": 7
+            },
+            "end": {
+              "line": 18,
+              "column": 15
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "react-dom",
+        "raw": "'react-dom'",
+        "range": [
+          662,
+          673
+        ],
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 21
+          },
+          "end": {
+            "line": 18,
+            "column": 32
+          }
+        }
+      },
+      "range": [
+        641,
+        674
+      ],
+      "loc": {
+        "start": {
+          "line": 18,
+          "column": 0
+        },
+        "end": {
+          "line": 18,
+          "column": 33
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "Router",
+            "range": [
+              684,
+              690
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 9
+              },
+              "end": {
+                "line": 19,
+                "column": 15
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "Router",
+            "range": [
+              684,
+              690
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 9
+              },
+              "end": {
+                "line": 19,
+                "column": 15
+              }
+            }
+          },
+          "range": [
+            684,
+            690
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 9
+            },
+            "end": {
+              "line": 19,
+              "column": 15
+            }
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "Route",
+            "range": [
+              692,
+              697
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 17
+              },
+              "end": {
+                "line": 19,
+                "column": 22
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "Route",
+            "range": [
+              692,
+              697
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 17
+              },
+              "end": {
+                "line": 19,
+                "column": 22
+              }
+            }
+          },
+          "range": [
+            692,
+            697
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 17
+            },
+            "end": {
+              "line": 19,
+              "column": 22
+            }
+          }
+        },
+        {
+          "type": "ImportSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "browserHistory",
+            "range": [
+              699,
+              713
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 24
+              },
+              "end": {
+                "line": 19,
+                "column": 38
+              }
+            }
+          },
+          "imported": {
+            "type": "Identifier",
+            "name": "browserHistory",
+            "range": [
+              699,
+              713
+            ],
+            "loc": {
+              "start": {
+                "line": 19,
+                "column": 24
+              },
+              "end": {
+                "line": 19,
+                "column": 38
+              }
+            }
+          },
+          "range": [
+            699,
+            713
+          ],
+          "loc": {
+            "start": {
+              "line": 19,
+              "column": 24
+            },
+            "end": {
+              "line": 19,
+              "column": 38
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "react-router",
+        "raw": "'react-router'",
+        "range": [
+          721,
+          735
+        ],
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 46
+          },
+          "end": {
+            "line": 19,
+            "column": 60
+          }
+        }
+      },
+      "range": [
+        675,
+        736
+      ],
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 0
+        },
+        "end": {
+          "line": 19,
+          "column": 61
+        }
+      }
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [
+        {
+          "type": "ImportDefaultSpecifier",
+          "local": {
+            "type": "Identifier",
+            "name": "Template",
+            "range": [
+              744,
+              752
+            ],
+            "loc": {
+              "start": {
+                "line": 20,
+                "column": 7
+              },
+              "end": {
+                "line": 20,
+                "column": 15
+              }
+            }
+          },
+          "range": [
+            744,
+            752
+          ],
+          "loc": {
+            "start": {
+              "line": 20,
+              "column": 7
+            },
+            "end": {
+              "line": 20,
+              "column": 15
+            }
+          }
+        }
+      ],
+      "source": {
+        "type": "Literal",
+        "value": "./views/Template",
+        "raw": "'./views/Template'",
+        "range": [
+          758,
+          776
+        ],
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 21
+          },
+          "end": {
+            "line": 20,
+            "column": 39
+          }
+        }
+      },
+      "range": [
+        737,
+        777
+      ],
+      "loc": {
+        "start": {
+          "line": 20,
+          "column": 0
+        },
+        "end": {
+          "line": 20,
+          "column": 40
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": " webpack loaders",
+          "range": [
+            779,
+            797
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 18
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "../../index.html",
+        "raw": "'../../index.html'",
+        "range": [
+          805,
+          823
+        ],
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 7
+          },
+          "end": {
+            "line": 23,
+            "column": 25
+          }
+        }
+      },
+      "range": [
+        798,
+        824
+      ],
+      "loc": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 23,
+          "column": 26
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": " webpack loaders",
+          "range": [
+            779,
+            797
+          ],
+          "loc": {
+            "start": {
+              "line": 22,
+              "column": 0
+            },
+            "end": {
+              "line": 22,
+              "column": 18
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ImportDeclaration",
+      "specifiers": [],
+      "source": {
+        "type": "Literal",
+        "value": "../../dist/saiku/saiku.css",
+        "raw": "'../../dist/saiku/saiku.css'",
+        "range": [
+          832,
+          860
+        ],
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 7
+          },
+          "end": {
+            "line": 24,
+            "column": 35
+          }
+        }
+      },
+      "range": [
+        825,
+        861
+      ],
+      "loc": {
+        "start": {
+          "line": 24,
+          "column": 0
+        },
+        "end": {
+          "line": 24,
+          "column": 36
+        }
+      },
+      "trailingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * React router component allows you to define routes in React application.\n * @see https://github.com/reactjs/react-router\n ",
+          "range": [
+            863,
+            994
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "VariableDeclaration",
+      "declarations": [
+        {
+          "type": "VariableDeclarator",
+          "id": {
+            "type": "Identifier",
+            "name": "routes",
+            "range": [
+              999,
+              1005
+            ],
+            "loc": {
+              "start": {
+                "line": 30,
+                "column": 4
+              },
+              "end": {
+                "line": 30,
+                "column": 10
+              }
+            }
+          },
+          "init": {
+            "type": "JSXElement",
+            "openingElement": {
+              "type": "JSXOpeningElement",
+              "name": {
+                "type": "JSXIdentifier",
+                "name": "Router",
+                "range": [
+                  1013,
+                  1019
+                ],
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 3
+                  },
+                  "end": {
+                    "line": 31,
+                    "column": 9
+                  }
+                }
+              },
+              "selfClosing": false,
+              "attributes": [
+                {
+                  "type": "JSXAttribute",
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "name": "history",
+                    "range": [
+                      1020,
+                      1027
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 10
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 17
+                      }
+                    }
+                  },
+                  "value": {
+                    "type": "JSXExpressionContainer",
+                    "expression": {
+                      "type": "Identifier",
+                      "name": "browserHistory",
+                      "range": [
+                        1029,
+                        1043
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 31,
+                          "column": 19
+                        },
+                        "end": {
+                          "line": 31,
+                          "column": 33
+                        }
+                      }
+                    },
+                    "range": [
+                      1028,
+                      1044
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 31,
+                        "column": 18
+                      },
+                      "end": {
+                        "line": 31,
+                        "column": 34
+                      }
+                    }
+                  },
+                  "range": [
+                    1020,
+                    1044
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 31,
+                      "column": 10
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 34
+                    }
+                  }
+                }
+              ],
+              "range": [
+                1012,
+                1045
+              ],
+              "loc": {
+                "start": {
+                  "line": 31,
+                  "column": 2
+                },
+                "end": {
+                  "line": 31,
+                  "column": 35
+                }
+              }
+            },
+            "closingElement": {
+              "type": "JSXClosingElement",
+              "name": {
+                "type": "JSXIdentifier",
+                "name": "Router",
+                "range": [
+                  1094,
+                  1100
+                ],
+                "loc": {
+                  "start": {
+                    "line": 33,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 10
+                  }
+                }
+              },
+              "range": [
+                1092,
+                1101
+              ],
+              "loc": {
+                "start": {
+                  "line": 33,
+                  "column": 2
+                },
+                "end": {
+                  "line": 33,
+                  "column": 11
+                }
+              }
+            },
+            "children": [
+              {
+                "type": "Literal",
+                "value": "\n    ",
+                "raw": "\n    ",
+                "range": [
+                  1045,
+                  1050
+                ],
+                "loc": {
+                  "start": {
+                    "line": 31,
+                    "column": 35
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 4
+                  }
+                }
+              },
+              {
+                "type": "JSXElement",
+                "openingElement": {
+                  "type": "JSXOpeningElement",
+                  "name": {
+                    "type": "JSXIdentifier",
+                    "name": "Route",
+                    "range": [
+                      1051,
+                      1056
+                    ],
+                    "loc": {
+                      "start": {
+                        "line": 32,
+                        "column": 5
+                      },
+                      "end": {
+                        "line": 32,
+                        "column": 10
+                      }
+                    }
+                  },
+                  "selfClosing": true,
+                  "attributes": [
+                    {
+                      "type": "JSXAttribute",
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "name": "path",
+                        "range": [
+                          1057,
+                          1061
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 32,
+                            "column": 11
+                          },
+                          "end": {
+                            "line": 32,
+                            "column": 15
+                          }
+                        }
+                      },
+                      "value": {
+                        "type": "Literal",
+                        "value": "/",
+                        "raw": "\"/\"",
+                        "range": [
+                          1062,
+                          1065
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 32,
+                            "column": 16
+                          },
+                          "end": {
+                            "line": 32,
+                            "column": 19
+                          }
+                        }
+                      },
+                      "range": [
+                        1057,
+                        1065
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 32,
+                          "column": 11
+                        },
+                        "end": {
+                          "line": 32,
+                          "column": 19
+                        }
+                      }
+                    },
+                    {
+                      "type": "JSXAttribute",
+                      "name": {
+                        "type": "JSXIdentifier",
+                        "name": "component",
+                        "range": [
+                          1066,
+                          1075
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 32,
+                            "column": 20
+                          },
+                          "end": {
+                            "line": 32,
+                            "column": 29
+                          }
+                        }
+                      },
+                      "value": {
+                        "type": "JSXExpressionContainer",
+                        "expression": {
+                          "type": "Identifier",
+                          "name": "Template",
+                          "range": [
+                            1077,
+                            1085
+                          ],
+                          "loc": {
+                            "start": {
+                              "line": 32,
+                              "column": 31
+                            },
+                            "end": {
+                              "line": 32,
+                              "column": 39
+                            }
+                          }
+                        },
+                        "range": [
+                          1076,
+                          1086
+                        ],
+                        "loc": {
+                          "start": {
+                            "line": 32,
+                            "column": 30
+                          },
+                          "end": {
+                            "line": 32,
+                            "column": 40
+                          }
+                        }
+                      },
+                      "range": [
+                        1066,
+                        1086
+                      ],
+                      "loc": {
+                        "start": {
+                          "line": 32,
+                          "column": 20
+                        },
+                        "end": {
+                          "line": 32,
+                          "column": 40
+                        }
+                      }
+                    }
+                  ],
+                  "range": [
+                    1050,
+                    1089
+                  ],
+                  "loc": {
+                    "start": {
+                      "line": 32,
+                      "column": 4
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 43
+                    }
+                  }
+                },
+                "closingElement": null,
+                "children": [],
+                "range": [
+                  1050,
+                  1089
+                ],
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 4
+                  },
+                  "end": {
+                    "line": 32,
+                    "column": 43
+                  }
+                }
+              },
+              {
+                "type": "Literal",
+                "value": "\n  ",
+                "raw": "\n  ",
+                "range": [
+                  1089,
+                  1092
+                ],
+                "loc": {
+                  "start": {
+                    "line": 32,
+                    "column": 43
+                  },
+                  "end": {
+                    "line": 33,
+                    "column": 2
+                  }
+                }
+              }
+            ],
+            "range": [
+              1012,
+              1101
+            ],
+            "loc": {
+              "start": {
+                "line": 31,
+                "column": 2
+              },
+              "end": {
+                "line": 33,
+                "column": 11
+              }
+            }
+          },
+          "range": [
+            999,
+            1103
+          ],
+          "loc": {
+            "start": {
+              "line": 30,
+              "column": 4
+            },
+            "end": {
+              "line": 34,
+              "column": 1
+            }
+          }
+        }
+      ],
+      "kind": "var",
+      "range": [
+        995,
+        1104
+      ],
+      "loc": {
+        "start": {
+          "line": 30,
+          "column": 0
+        },
+        "end": {
+          "line": 34,
+          "column": 2
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Block",
+          "value": "*\n * React router component allows you to define routes in React application.\n * @see https://github.com/reactjs/react-router\n ",
+          "range": [
+            863,
+            994
+          ],
+          "loc": {
+            "start": {
+              "line": 26,
+              "column": 0
+            },
+            "end": {
+              "line": 29,
+              "column": 3
+            }
+          }
+        }
+      ],
+      "trailingComments": [
+        {
+          "type": "Line",
+          "value": " The primary API for rendering into the DOM.",
+          "range": [
+            1106,
+            1152
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 46
+            }
+          }
+        }
+      ]
+    },
+    {
+      "type": "ExpressionStatement",
+      "expression": {
+        "type": "CallExpression",
+        "callee": {
+          "type": "MemberExpression",
+          "computed": false,
+          "object": {
+            "type": "Identifier",
+            "name": "ReactDOM",
+            "range": [
+              1153,
+              1161
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 0
+              },
+              "end": {
+                "line": 37,
+                "column": 8
+              }
+            }
+          },
+          "property": {
+            "type": "Identifier",
+            "name": "render",
+            "range": [
+              1162,
+              1168
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 9
+              },
+              "end": {
+                "line": 37,
+                "column": 15
+              }
+            }
+          },
+          "range": [
+            1153,
+            1168
+          ],
+          "loc": {
+            "start": {
+              "line": 37,
+              "column": 0
+            },
+            "end": {
+              "line": 37,
+              "column": 15
+            }
+          }
+        },
+        "arguments": [
+          {
+            "type": "Identifier",
+            "name": "routes",
+            "range": [
+              1169,
+              1175
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 16
+              },
+              "end": {
+                "line": 37,
+                "column": 22
+              }
+            }
+          },
+          {
+            "type": "CallExpression",
+            "callee": {
+              "type": "MemberExpression",
+              "computed": false,
+              "object": {
+                "type": "Identifier",
+                "name": "document",
+                "range": [
+                  1177,
+                  1185
+                ],
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 24
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 32
+                  }
+                }
+              },
+              "property": {
+                "type": "Identifier",
+                "name": "querySelector",
+                "range": [
+                  1186,
+                  1199
+                ],
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 33
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 46
+                  }
+                }
+              },
+              "range": [
+                1177,
+                1199
+              ],
+              "loc": {
+                "start": {
+                  "line": 37,
+                  "column": 24
+                },
+                "end": {
+                  "line": 37,
+                  "column": 46
+                }
+              }
+            },
+            "arguments": [
+              {
+                "type": "Literal",
+                "value": "#app",
+                "raw": "'#app'",
+                "range": [
+                  1200,
+                  1206
+                ],
+                "loc": {
+                  "start": {
+                    "line": 37,
+                    "column": 47
+                  },
+                  "end": {
+                    "line": 37,
+                    "column": 53
+                  }
+                }
+              }
+            ],
+            "range": [
+              1177,
+              1207
+            ],
+            "loc": {
+              "start": {
+                "line": 37,
+                "column": 24
+              },
+              "end": {
+                "line": 37,
+                "column": 54
+              }
+            }
+          }
+        ],
+        "range": [
+          1153,
+          1208
+        ],
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 0
+          },
+          "end": {
+            "line": 37,
+            "column": 55
+          }
+        }
+      },
+      "range": [
+        1153,
+        1209
+      ],
+      "loc": {
+        "start": {
+          "line": 37,
+          "column": 0
+        },
+        "end": {
+          "line": 37,
+          "column": 56
+        }
+      },
+      "leadingComments": [
+        {
+          "type": "Line",
+          "value": " The primary API for rendering into the DOM.",
+          "range": [
+            1106,
+            1152
+          ],
+          "loc": {
+            "start": {
+              "line": 36,
+              "column": 0
+            },
+            "end": {
+              "line": 36,
+              "column": 46
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "sourceType": "module",
+  "range": [
+    614,
+    1209
+  ],
+  "loc": {
+    "start": {
+      "line": 17,
+      "column": 0
+    },
+    "end": {
+      "line": 37,
+      "column": 56
+    }
+  },
+  "comments": [
+    {
+      "type": "Block",
+      "value": "*\n *   Copyright 2016 OSBI Ltd\n *\n *   Licensed under the Apache License, Version 2.0 (the \"License\");\n *   you may not use this file except in compliance with the License.\n *   You may obtain a copy of the License at\n *\n *       http://www.apache.org/licenses/LICENSE-2.0\n *\n *   Unless required by applicable law or agreed to in writing, software\n *   distributed under the License is distributed on an \"AS IS\" BASIS,\n *   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n *   See the License for the specific language governing permissions and\n *   limitations under the License.\n ",
+      "range": [
+        0,
+        612
+      ],
+      "loc": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 15,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " webpack loaders",
+      "range": [
+        779,
+        797
+      ],
+      "loc": {
+        "start": {
+          "line": 22,
+          "column": 0
+        },
+        "end": {
+          "line": 22,
+          "column": 18
+        }
+      }
+    },
+    {
+      "type": "Block",
+      "value": "*\n * React router component allows you to define routes in React application.\n * @see https://github.com/reactjs/react-router\n ",
+      "range": [
+        863,
+        994
+      ],
+      "loc": {
+        "start": {
+          "line": 26,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 3
+        }
+      }
+    },
+    {
+      "type": "Line",
+      "value": " The primary API for rendering into the DOM.",
+      "range": [
+        1106,
+        1152
+      ],
+      "loc": {
+        "start": {
+          "line": 36,
+          "column": 0
+        },
+        "end": {
+          "line": 36,
+          "column": 46
+        }
+      }
+    }
+  ]
+}
